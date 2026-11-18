@@ -1,0 +1,3 @@
+ENERGY tag=CPU1 mode=cpu1 n=1048576 k=1 reps=710 loop_start=4024.922810 loop_end=4034.932174 mean_kern_ns=14095831.0 sd_kern_ns=106029.5 mean_e2e_ns=14095831.0 sd_e2e_ns=106029.5 mismatches=0 poll=-
+samples=505 duration=10.083 s mean_power=3.530 W min=3.120 max=3.910 energy=35.589 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K1_r2.csv
+final temperatures: ams:temp1=27.71, ams:temp2=26.2, ams:temp3=23.93, ams:ps_temp=27.06, ams:remote_temp=26.07, ams:pl_temp=23.99

@@ -1,0 +1,3 @@
+ENERGY tag=P4 mode=acc n=1048576 k=4 reps=10 loop_start=5368.952322 loop_end=5379.837299 mean_kern_ns=1087632288.5 sd_kern_ns=143815.4 mean_e2e_ns=1088494740.3 sd_e2e_ns=142510.1 mismatches=0 poll=spin
+samples=609 duration=12.163 s mean_power=3.269 W min=3.250 max=3.670 energy=39.763 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K4_r2.csv
+final temperatures: ams:temp1=26.64, ams:temp2=27.17, ams:temp3=24.22, ams:ps_temp=28.85, ams:remote_temp=26.95, ams:pl_temp=24.38

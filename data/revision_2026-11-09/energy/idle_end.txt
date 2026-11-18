@@ -1,0 +1,2 @@
+samples=3001 duration=60.002 s mean_power=3.122 W min=3.100 max=3.500 energy=187.300 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/idle_end.csv
+final temperatures: ams:temp1=26.45, ams:temp2=25.83, ams:temp3=24.2, ams:ps_temp=25.49, ams:remote_temp=25.77, ams:pl_temp=24.2

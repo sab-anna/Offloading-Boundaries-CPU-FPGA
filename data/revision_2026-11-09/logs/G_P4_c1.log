@@ -1,0 +1,32 @@
+[P4 c1] N=1024 K=1 done
+[P4 c1] N=1024 K=4 done
+[P4 c1] N=1024 K=16 done
+[P4 c1] N=1024 K=64 done
+[P4 c1] N=1024 K=256 done
+[P4 c1] N=4096 K=1 done
+[P4 c1] N=4096 K=4 done
+[P4 c1] N=4096 K=16 done
+[P4 c1] N=4096 K=64 done
+[P4 c1] N=4096 K=256 done
+[P4 c1] N=16384 K=1 done
+[P4 c1] N=16384 K=4 done
+[P4 c1] N=16384 K=16 done
+[P4 c1] N=16384 K=64 done
+[P4 c1] N=16384 K=256 done
+[P4 c1] N=65536 K=1 done
+[P4 c1] N=65536 K=4 done
+[P4 c1] N=65536 K=16 done
+[P4 c1] N=65536 K=64 done
+[P4 c1] N=65536 K=256 done
+[P4 c1] N=262144 K=1 done
+[P4 c1] N=262144 K=4 done
+[P4 c1] N=262144 K=16 done
+[P4 c1] N=262144 K=64 done
+[P4 c1] N=262144 K=256 done
+[P4 c1] N=1048576 K=1 done
+[P4 c1] N=1048576 K=4 done
+[P4 c1] N=1048576 K=16 done
+[P4 c1] N=1048576 K=64 done
+[P4 c1] N=1048576 K=256 done
+samples=917 duration=183.203 s mean_power=3.263 W min=3.100 max=3.630 energy=597.709 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/G_P4_c1.csv
+final temperatures: ams:temp1=25.82, ams:temp2=25.41, ams:temp3=24.54, ams:ps_temp=26.95, ams:remote_temp=27.08, ams:pl_temp=24.36

@@ -1,0 +1,177 @@
+
+
+================================================================
+== Synthesis Summary Report of 'microbench'
+================================================================
++ General Information: 
+    * Date:           Sat Sep  5 18:23:30 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        hls_offloading
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xck26-sfvc784-2LV-c
+    
+
+* Performance & Resource Estimates: 
++-----------------------------------------+------+---------------+----------+---------+------+----------+---------+-----+------+---------+----+------------+-----------+-----+
+|                 Modules                 | Issue|               | Iteration|         | Trip |          |    Latency    |      |         |    |            |           |     |
+|                 & Loops                 | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)| (ns)| Slack|  BRAM   | DSP|     FF     |    LUT    | URAM|
++-----------------------------------------+------+---------------+----------+---------+------+----------+---------+-----+------+---------+----+------------+-----------+-----+
+|+ microbench                             |     -|              -|         -|        -|     -|        no|        -|    -|  0.00|  2 (~0%)|   -|  1905 (~0%)|  2533 (2%)|    -|
+| o VITIS_LOOP_20_1                       |     -|              -|         4|        -|     -|        no|        -|    -|  7.30|        -|   -|           -|          -|    -|
+|  + microbench_Pipeline_VITIS_LOOP_25_2  |     -|              -|         -|        -|     -|       yes|        -|    -|  1.85|        -|   -|    66 (~0%)|  506 (~0%)|    -|
+|   o VITIS_LOOP_25_2                     |     -|              -|         1|        1|     -|       yes|        -|    -|  7.30|        -|   -|           -|          -|    -|
++-----------------------------------------+------+---------------+----------+---------+------+----------+---------+-----+------+---------+----+------------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface   | Read/Write | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|             |            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_gmem0 | READ_ONLY  | 32 -> 32   | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=2            |
+| m_axi_gmem1 | WRITE_ONLY | 32 -> 32   | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |                   |
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | in_r_1   | 0x10   | 32    | W      | Data signal of in_r              |                                                                      |
+| s_axi_control | in_r_2   | 0x14   | 32    | W      | Data signal of in_r              |                                                                      |
+| s_axi_control | out_r_1  | 0x1c   | 32    | W      | Data signal of out_r             |                                                                      |
+| s_axi_control | out_r_2  | 0x20   | 32    | W      | Data signal of out_r             |                                                                      |
+| s_axi_control | n        | 0x28   | 32    | W      | Data signal of n                 |                                                                      |
+| s_axi_control | k        | 0x30   | 32    | W      | Data signal of k                 |                                                                      |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------------------+
+| Argument | Direction | Datatype             |
++----------+-----------+----------------------+
+| in       | in        | unsigned int const * |
+| out      | out       | unsigned int*        |
+| n        | in        | int                  |
+| k        | in        | int                  |
++----------+-----------+----------------------+
+
+* SW-to-HW Mapping
++----------+---------------+-----------+----------+-----------------------------------+
+| Argument | HW Interface  | HW Type   | HW Usage | HW Info                           |
++----------+---------------+-----------+----------+-----------------------------------+
+| in       | m_axi_gmem0   | interface |          | channel=0                         |
+| in       | s_axi_control | register  | offset   | name=in_r_1 offset=0x10 range=32  |
+| in       | s_axi_control | register  | offset   | name=in_r_2 offset=0x14 range=32  |
+| out      | m_axi_gmem1   | interface |          | channel=0                         |
+| out      | s_axi_control | register  | offset   | name=out_r_1 offset=0x1c range=32 |
+| out      | s_axi_control | register  | offset   | name=out_r_2 offset=0x20 range=32 |
+| n        | s_axi_control | register  |          | name=n offset=0x28 range=32       |
+| k        | s_axi_control | register  |          | name=k offset=0x30 range=32       |
++----------+---------------+-----------+----------+-----------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* Inferred Burst Summary
++--------------+-----------+----------+-------+-----------------+------------------+
+| HW Interface | Direction | Length   | Width | Loop            | Loop Location    |
++--------------+-----------+----------+-------+-----------------+------------------+
+| m_axi_gmem0  | read      | variable | 32    | VITIS_LOOP_20_1 | kernel.cpp:20:22 |
+| m_axi_gmem1  | write     | variable | 32    | VITIS_LOOP_20_1 | kernel.cpp:20:22 |
++--------------+-----------+----------+-------+-----------------+------------------+
+
+* All M_AXI Variable Accesses
++--------------+----------+------------------+-----------+--------------+----------+-----------------+------------------+------------+-------------------------------------------------------------------------------------------------------+
+| HW Interface | Variable | Access Location  | Direction | Burst Status | Length   | Loop            | Loop Location    | Resolution | Problem                                                                                               |
++--------------+----------+------------------+-----------+--------------+----------+-----------------+------------------+------------+-------------------------------------------------------------------------------------------------------+
+| m_axi_gmem0  | in       | kernel.cpp:22:22 | read      | Widen Fail   |          | VITIS_LOOP_20_1 | kernel.cpp:20:22 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem0  | in       | kernel.cpp:22:22 | read      | Inferred     | variable | VITIS_LOOP_20_1 | kernel.cpp:20:22 |            |                                                                                                       |
+| m_axi_gmem1  | out      | kernel.cpp:35:16 | write     | Widen Fail   |          | VITIS_LOOP_20_1 | kernel.cpp:20:22 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem1  | out      | kernel.cpp:35:16 | write     | Inferred     | variable | VITIS_LOOP_20_1 | kernel.cpp:20:22 |            |                                                                                                       |
++--------------+----------+------------------+-----------+--------------+----------+-----------------+------------------+------------+-------------------------------------------------------------------------------------------------------+
+
+    * Resolution URL: docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------------------+-----+--------+-------------+--------+----------+---------+
+| Name                                   | DSP | Pragma | Variable    | Op     | Impl     | Latency |
++----------------------------------------+-----+--------+-------------+--------+----------+---------+
+| + microbench                           | 0   |        |             |        |          |         |
+|   icmp_ln20_fu_160_p2                  |     |        | icmp_ln20   | setgt  | auto     | 0       |
+|   empty_fu_190_p3                      |     |        | empty       | select | auto_sel | 0       |
+|   icmp_ln20_1_fu_235_p2                |     |        | icmp_ln20_1 | setlt  | auto     | 0       |
+|   add_ln20_fu_240_p2                   |     |        | add_ln20    | add    | fabric   | 0       |
+|  + microbench_Pipeline_VITIS_LOOP_25_2 | 0   |        |             |        |          |         |
+|    icmp_ln25_fu_92_p2                  |     |        | icmp_ln25   | setlt  | auto     | 0       |
+|    j_2_fu_97_p2                        |     |        | j_2         | add    | fabric   | 0       |
+|    xor_ln32_fu_106_p2                  |     |        | xor_ln32    | xor    | auto     | 0       |
+|    sub_ln32_fu_123_p2                  |     |        | sub_ln32    | sub    | fabric   | 0       |
++----------------------------------------+-----+--------+-------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name              | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                   |           |           |      |      |        |          |      |         | Banks            |
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + microbench      |           |           | 2    | 0    |        |          |      |         |                  |
+|   control_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
+|   gmem0_m_axi_U   | interface | m_axi     | 2    |      |        |          |      |         |                  |
+|   gmem1_m_axi_U   | interface | m_axi     |      |      |        |          |      |         |                  |
++-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+------------------------------------------+-------------------------------+
+| Type      | Options                                  | Location                      |
++-----------+------------------------------------------+-------------------------------+
+| INTERFACE | m_axi port=in offset=slave bundle=gmem0  | in microbench (kernel.cpp:11) |
+| INTERFACE | m_axi port=out offset=slave bundle=gmem1 | in microbench (kernel.cpp:12) |
+| INTERFACE | s_axilite port=in                        | in microbench (kernel.cpp:14) |
+| INTERFACE | s_axilite port=out                       | in microbench (kernel.cpp:15) |
+| INTERFACE | s_axilite port=n                         | in microbench (kernel.cpp:16) |
+| INTERFACE | s_axilite port=k                         | in microbench (kernel.cpp:17) |
+| INTERFACE | s_axilite port=return                    | in microbench (kernel.cpp:18) |
+| PIPELINE  | ii=1                                     | in microbench (kernel.cpp:26) |
++-----------+------------------------------------------+-------------------------------+
+
+

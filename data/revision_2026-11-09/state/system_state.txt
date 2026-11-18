@@ -1,0 +1,62 @@
+# date: 2026-11-09T22:53:35+01:00
+# kernel: 5.15.0-1027-xilinx-zynqmp
+# governor: userspace  cur_freq_kHz: 1333333
+# sched_rt_runtime_us: 950000
+# isolcpus/nohz in cmdline: none
+# network interfaces up:
+#   eth0
+# logged-in sessions:
+#   ubuntu   pts/0        2026-11-09 21:51 (<redacted>)
+#   ubuntu   pts/1        2026-11-09 22:51 (<redacted>)
+#   root     pts/2        2026-11-09 22:51 (tmux(27121).%0)
+# running services:
+#   colord.service
+#   cron.service
+#   dbus.service
+#   dfx-mgr.service
+#   fancontrol.service
+#   getty@tty1.service
+#   irqbalance.service
+#   jupyter.service
+#   kerneloops.service
+#   multipathd.service
+#   NetworkManager.service
+#   polkit.service
+#   rpcbind.service
+#   rsyslog.service
+#   serial-getty@ttyPS1.service
+#   ssh.service
+#   systemd-journald.service
+#   systemd-logind.service
+#   systemd-oomd.service
+#   systemd-resolved.service
+#   systemd-timesyncd.service
+#   systemd-udevd.service
+#   user@1000.service
+#   user@133.service
+#   wpa_supplicant.service
+# top CPU consumers (5 s sample):
+#       PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+#       930 message+  20   0   10280   5352   3628 S   0.6   0.1   0:03.00 dbus-da+
+#     28235 avahi     20   0    7944   3200   2836 S   0.6   0.1   0:00.03 avahi-d+
+#         1 root      20   0  168244  12092   7436 S   0.4   0.3   0:07.64 systemd
+#       843 systemd+  20   0   15144   3784   3036 S   0.4   0.1   0:09.09 systemd+
+#      2403 ubuntu    20   0    7276   2936   2656 S   0.4   0.1   0:14.23 bash
+#        14 root      20   0       0      0      0 I   0.2   0.0   0:01.63 rcu_sch+
+#       343 root       0 -20       0      0      0 I   0.2   0.0   0:01.20 kworker+
+# platformstats:
+# g++: g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+# apps:
+#                        Accelerator          Accel_type                            Base           Base_type      #slots(PL+AIE)         Active_slot
+#   
+#                         microbench            XRT_FLAT                      microbench            XRT_FLAT               (0+0)                  -1
+#                      microbench_p4            XRT_FLAT                   microbench_p4            XRT_FLAT               (0+0)                  0,
+#                   k26-starter-kits            XRT_FLAT                k26-starter-kits            XRT_FLAT               (0+0)                  -1
+#                             AES128         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+#                        PP_PIPELINE         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+#                                DPU         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+#                                FIR         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+#                                FFT         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+#                             AES192         SIHA_PL_DFX                     k26-dfx-2rp              PL_DFX               (2+0)                  -1
+# P1: app=microbench fpl=100 MHz M_AXI_HPM0_FPD=128-bit
+# P4: app=microbench_p4 fpl=100 MHz M_AXI_HPM0_FPD=32-bit

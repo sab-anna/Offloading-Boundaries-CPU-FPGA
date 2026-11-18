@@ -1,0 +1,280 @@
+[22:53:21] building revbench
+State saved to /home/ubuntu/kria_esperimenti/results_20261109_225321/state/system_state.txt
+[22:53:41] loading design microbench
+microbench: loaded to slot 0
+[22:53:45] idle power (cpu), 60 s
+samples=3001 duration=60.002 s mean_power=3.121 W min=3.100 max=3.510 energy=187.268 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/idle_cpu.csv
+final temperatures: ams:temp1=26.56, ams:temp2=25.27, ams:temp3=24.11, ams:ps_temp=25.69, ams:remote_temp=25.37, ams:pl_temp=24.09
+[22:54:45] energy CPU1 K=1 (repetition 1/3)
+    samples=504 duration=10.063 s mean_power=3.535 W min=3.390 max=3.900 energy=35.572 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K1_r1.csv
+[22:55:00] energy CPU1 K=4 (repetition 1/3)
+    samples=505 duration=10.083 s mean_power=3.501 W min=3.350 max=3.860 energy=35.301 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K4_r1.csv
+[22:55:16] energy CPU1 K=16 (repetition 1/3)
+    samples=509 duration=10.163 s mean_power=3.421 W min=3.390 max=3.840 energy=34.767 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K16_r1.csv
+[22:55:31] energy CPU1 K=64 (repetition 1/3)
+    samples=521 duration=10.403 s mean_power=3.355 W min=3.330 max=3.750 energy=34.900 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K64_r1.csv
+[22:55:47] energy CPU1 K=256 (repetition 1/3)
+    samples=555 duration=11.083 s mean_power=3.341 W min=3.320 max=3.870 energy=37.024 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K256_r1.csv
+[22:56:03] energy CPU1 K=1 (repetition 2/3)
+    samples=505 duration=10.083 s mean_power=3.530 W min=3.120 max=3.910 energy=35.589 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K1_r2.csv
+[22:56:19] energy CPU1 K=4 (repetition 2/3)
+    samples=505 duration=10.083 s mean_power=3.504 W min=3.450 max=3.900 energy=35.335 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K4_r2.csv
+[22:56:34] energy CPU1 K=16 (repetition 2/3)
+    samples=508 duration=10.143 s mean_power=3.426 W min=3.160 max=3.790 energy=34.750 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K16_r2.csv
+[22:56:49] energy CPU1 K=64 (repetition 2/3)
+    samples=521 duration=10.403 s mean_power=3.357 W min=3.170 max=3.810 energy=34.924 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K64_r2.csv
+[22:57:05] energy CPU1 K=256 (repetition 2/3)
+    samples=555 duration=11.083 s mean_power=3.342 W min=3.320 max=3.690 energy=37.038 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K256_r2.csv
+[22:57:21] energy CPU1 K=1 (repetition 3/3)
+    samples=504 duration=10.063 s mean_power=3.531 W min=3.470 max=3.880 energy=35.529 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K1_r3.csv
+[22:57:37] energy CPU1 K=4 (repetition 3/3)
+    samples=505 duration=10.083 s mean_power=3.500 W min=3.400 max=3.870 energy=35.285 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K4_r3.csv
+[22:57:52] energy CPU1 K=16 (repetition 3/3)
+    samples=508 duration=10.143 s mean_power=3.420 W min=3.160 max=3.760 energy=34.686 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K16_r3.csv
+[22:58:07] energy CPU1 K=64 (repetition 3/3)
+    samples=521 duration=10.403 s mean_power=3.355 W min=3.330 max=3.740 energy=34.901 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K64_r3.csv
+[22:58:23] energy CPU1 K=256 (repetition 3/3)
+    samples=555 duration=11.083 s mean_power=3.339 W min=3.320 max=4.000 energy=37.010 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU1_K256_r3.csv
+[22:58:39] energy CPU4 K=1 (repetition 1/3)
+    samples=504 duration=10.063 s mean_power=4.441 W min=3.250 max=4.530 energy=44.688 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K1_r1.csv
+[22:58:55] energy CPU4 K=4 (repetition 1/3)
+    samples=504 duration=10.063 s mean_power=4.379 W min=3.450 max=4.510 energy=44.062 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K4_r1.csv
+[22:59:10] energy CPU4 K=16 (repetition 1/3)
+    samples=506 duration=10.103 s mean_power=4.171 W min=3.370 max=4.330 energy=42.137 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K16_r1.csv
+[22:59:25] energy CPU4 K=64 (repetition 1/3)
+    samples=513 duration=10.243 s mean_power=3.951 W min=3.340 max=4.140 energy=40.465 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K64_r1.csv
+[22:59:41] energy CPU4 K=256 (repetition 1/3)
+    samples=540 duration=10.782 s mean_power=3.889 W min=3.120 max=4.090 energy=41.929 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K256_r1.csv
+[22:59:57] energy CPU4 K=1 (repetition 2/3)
+    samples=504 duration=10.063 s mean_power=4.435 W min=3.190 max=4.540 energy=44.624 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K1_r2.csv
+[23:00:12] energy CPU4 K=4 (repetition 2/3)
+    samples=504 duration=10.063 s mean_power=4.379 W min=3.390 max=4.520 energy=44.062 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K4_r2.csv
+[23:00:28] energy CPU4 K=16 (repetition 2/3)
+    samples=506 duration=10.103 s mean_power=4.172 W min=3.210 max=4.330 energy=42.153 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K16_r2.csv
+[23:00:43] energy CPU4 K=64 (repetition 2/3)
+    samples=515 duration=10.283 s mean_power=3.951 W min=3.210 max=4.150 energy=40.632 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K64_r2.csv
+[23:00:59] energy CPU4 K=256 (repetition 2/3)
+    samples=539 duration=10.763 s mean_power=3.889 W min=3.320 max=4.090 energy=41.853 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K256_r2.csv
+[23:01:15] energy CPU4 K=1 (repetition 3/3)
+    samples=504 duration=10.063 s mean_power=4.444 W min=3.110 max=4.550 energy=44.722 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K1_r3.csv
+[23:01:30] energy CPU4 K=4 (repetition 3/3)
+    samples=504 duration=10.063 s mean_power=4.383 W min=3.380 max=4.530 energy=44.102 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K4_r3.csv
+[23:01:45] energy CPU4 K=16 (repetition 3/3)
+    samples=506 duration=10.103 s mean_power=4.176 W min=3.350 max=4.340 energy=42.185 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K16_r3.csv
+[23:02:01] energy CPU4 K=64 (repetition 3/3)
+    samples=513 duration=10.243 s mean_power=3.955 W min=3.340 max=4.140 energy=40.512 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K64_r3.csv
+[23:02:16] energy CPU4 K=256 (repetition 3/3)
+    samples=539 duration=10.763 s mean_power=3.891 W min=3.130 max=4.090 energy=41.880 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K256_r3.csv
+[23:02:32] timing grid CPU1 campaign 1
+[23:03:00] timing grid CPU4b campaign 1
+[23:03:13] timing grid CPU4b campaign 2
+[23:03:25] timing grid CPU4b campaign 3
+[23:03:37] timing grid CPU4b campaign 4
+[23:03:50] timing grid CPU4b campaign 5
+[23:04:02] timing grid CPU4u campaign 1
+[23:04:15] loading design microbench
+microbench: loaded to slot 0
+    AFI_FS: 0x0000 -> 0x0200 (M_AXI_HPM0_FPD 128-bit)
+[23:04:19] idle power (P1), 60 s
+samples=3001 duration=60.002 s mean_power=3.123 W min=3.100 max=4.210 energy=187.382 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/idle_P1.csv
+final temperatures: ams:temp1=26.45, ams:temp2=26.42, ams:temp3=24.18, ams:ps_temp=25.65, ams:remote_temp=25.79, ams:pl_temp=24.15
+[23:05:19] energy P1 K=1 (repetition 1/3)
+    samples=514 duration=10.262 s mean_power=3.291 W min=3.110 max=3.730 energy=33.774 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K1_r1.csv
+[23:05:35] energy P1 K=4 (repetition 1/3)
+    samples=520 duration=10.383 s mean_power=3.274 W min=3.140 max=3.920 energy=33.988 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K4_r1.csv
+[23:05:51] energy P1 K=16 (repetition 1/3)
+    samples=531 duration=10.603 s mean_power=3.254 W min=3.230 max=3.600 energy=34.505 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K16_r1.csv
+[23:06:06] energy P1 K=64 (repetition 1/3)
+    samples=560 duration=11.183 s mean_power=3.237 W min=3.210 max=3.660 energy=36.202 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K64_r1.csv
+[23:06:23] energy P1 K=256 (repetition 1/3)
+    samples=721 duration=14.403 s mean_power=3.233 W min=3.180 max=3.680 energy=46.562 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K256_r1.csv
+[23:06:43] energy P1 K=1 (repetition 2/3)
+    samples=514 duration=10.263 s mean_power=3.292 W min=3.120 max=3.660 energy=33.779 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K1_r2.csv
+[23:06:58] energy P1 K=4 (repetition 2/3)
+    samples=520 duration=10.383 s mean_power=3.274 W min=3.180 max=3.650 energy=33.990 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K4_r2.csv
+[23:07:14] energy P1 K=16 (repetition 2/3)
+    samples=531 duration=10.603 s mean_power=3.254 W min=3.230 max=3.660 energy=34.497 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K16_r2.csv
+[23:07:30] energy P1 K=64 (repetition 2/3)
+    samples=560 duration=11.183 s mean_power=3.236 W min=3.210 max=3.710 energy=36.183 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K64_r2.csv
+[23:07:46] energy P1 K=256 (repetition 2/3)
+    samples=721 duration=14.403 s mean_power=3.232 W min=3.200 max=3.720 energy=46.556 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K256_r2.csv
+[23:08:06] energy P1 K=1 (repetition 3/3)
+    samples=514 duration=10.262 s mean_power=3.290 W min=3.120 max=3.680 energy=33.766 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K1_r3.csv
+[23:08:21] energy P1 K=4 (repetition 3/3)
+    samples=520 duration=10.383 s mean_power=3.271 W min=3.170 max=3.630 energy=33.966 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K4_r3.csv
+[23:08:37] energy P1 K=16 (repetition 3/3)
+    samples=531 duration=10.603 s mean_power=3.252 W min=3.230 max=3.710 energy=34.484 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K16_r3.csv
+[23:08:53] energy P1 K=64 (repetition 3/3)
+    samples=560 duration=11.183 s mean_power=3.237 W min=3.210 max=3.600 energy=36.195 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K64_r3.csv
+[23:09:09] energy P1 K=256 (repetition 3/3)
+    samples=721 duration=14.402 s mean_power=3.231 W min=3.110 max=3.580 energy=46.527 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_K256_r3.csv
+[23:09:29] energy P1_sleep K=1 (repetition 1/3)
+    samples=514 duration=10.263 s mean_power=3.242 W min=3.210 max=3.570 energy=33.271 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K1_r1.csv
+[23:09:44] energy P1_sleep K=4 (repetition 1/3)
+    samples=515 duration=10.283 s mean_power=3.222 W min=3.200 max=3.560 energy=33.133 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K4_r1.csv
+[23:10:00] energy P1_sleep K=16 (repetition 1/3)
+    samples=531 duration=10.603 s mean_power=3.200 W min=3.170 max=3.560 energy=33.926 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K16_r1.csv
+[23:10:16] energy P1_sleep K=64 (repetition 1/3)
+    samples=561 duration=11.202 s mean_power=3.185 W min=3.110 max=3.630 energy=35.678 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K64_r1.csv
+[23:10:32] energy P1_sleep K=256 (repetition 1/3)
+    samples=721 duration=14.403 s mean_power=3.183 W min=3.150 max=3.590 energy=45.846 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K256_r1.csv
+[23:10:52] energy P1_sleep K=1 (repetition 2/3)
+    samples=514 duration=10.263 s mean_power=3.244 W min=3.170 max=3.920 energy=33.291 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K1_r2.csv
+[23:11:08] energy P1_sleep K=4 (repetition 2/3)
+    samples=515 duration=10.283 s mean_power=3.225 W min=3.200 max=3.610 energy=33.161 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K4_r2.csv
+[23:11:23] energy P1_sleep K=16 (repetition 2/3)
+    samples=532 duration=10.622 s mean_power=3.203 W min=3.130 max=3.740 energy=34.028 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K16_r2.csv
+[23:11:39] energy P1_sleep K=64 (repetition 2/3)
+    samples=560 duration=11.183 s mean_power=3.187 W min=3.160 max=3.530 energy=35.643 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K64_r2.csv
+[23:11:55] energy P1_sleep K=256 (repetition 2/3)
+    samples=721 duration=14.403 s mean_power=3.180 W min=3.120 max=3.540 energy=45.807 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K256_r2.csv
+[23:12:15] energy P1_sleep K=1 (repetition 3/3)
+    samples=514 duration=10.263 s mean_power=3.243 W min=3.210 max=3.580 energy=33.283 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K1_r3.csv
+[23:12:31] energy P1_sleep K=4 (repetition 3/3)
+    samples=515 duration=10.283 s mean_power=3.224 W min=3.200 max=3.630 energy=33.150 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K4_r3.csv
+[23:12:46] energy P1_sleep K=16 (repetition 3/3)
+    samples=531 duration=10.603 s mean_power=3.200 W min=3.170 max=3.650 energy=33.927 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K16_r3.csv
+[23:13:02] energy P1_sleep K=64 (repetition 3/3)
+    samples=560 duration=11.183 s mean_power=3.184 W min=3.160 max=3.630 energy=35.604 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K64_r3.csv
+[23:13:18] energy P1_sleep K=256 (repetition 3/3)
+    samples=721 duration=14.403 s mean_power=3.181 W min=3.150 max=3.620 energy=45.822 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K256_r3.csv
+[23:13:38] timing grid P1 campaign 1
+[23:15:38] loading design microbench_p4
+microbench_p4: loaded to slot 0
+    AFI_FS: 0x0200 -> 0x0000 (M_AXI_HPM0_FPD 32-bit)
+[23:15:42] idle power (P4), 60 s
+samples=3001 duration=60.002 s mean_power=3.123 W min=3.100 max=3.520 energy=187.359 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/idle_P4.csv
+final temperatures: ams:temp1=25.88, ams:temp2=25.26, ams:temp3=24.08, ams:ps_temp=26.55, ams:remote_temp=25.6, ams:pl_temp=24.01
+[23:16:42] energy P4 K=1 (repetition 1/3)
+    samples=606 duration=12.103 s mean_power=3.265 W min=3.150 max=3.800 energy=39.518 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K1_r1.csv
+[23:16:59] energy P4 K=4 (repetition 1/3)
+    samples=609 duration=12.163 s mean_power=3.269 W min=3.250 max=3.700 energy=39.757 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K4_r1.csv
+[23:17:17] energy P4 K=16 (repetition 1/3)
+    samples=576 duration=11.503 s mean_power=3.270 W min=3.250 max=3.900 energy=37.611 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K16_r1.csv
+[23:17:34] energy P4 K=64 (repetition 1/3)
+    samples=580 duration=11.583 s mean_power=3.264 W min=3.220 max=3.630 energy=37.808 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K64_r1.csv
+[23:17:50] energy P4 K=256 (repetition 1/3)
+    samples=651 duration=13.002 s mean_power=3.258 W min=3.120 max=3.660 energy=42.368 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K256_r1.csv
+[23:18:09] energy P4 K=1 (repetition 2/3)
+    samples=606 duration=12.103 s mean_power=3.268 W min=3.160 max=3.630 energy=39.553 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K1_r2.csv
+[23:18:26] energy P4 K=4 (repetition 2/3)
+    samples=609 duration=12.163 s mean_power=3.269 W min=3.250 max=3.670 energy=39.763 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K4_r2.csv
+[23:18:43] energy P4 K=16 (repetition 2/3)
+    samples=576 duration=11.503 s mean_power=3.265 W min=3.220 max=3.620 energy=37.554 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K16_r2.csv
+[23:19:00] energy P4 K=64 (repetition 2/3)
+    samples=580 duration=11.583 s mean_power=3.264 W min=3.120 max=3.670 energy=37.809 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K64_r2.csv
+[23:19:17] energy P4 K=256 (repetition 2/3)
+    samples=651 duration=13.003 s mean_power=3.261 W min=3.210 max=3.650 energy=42.403 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K256_r2.csv
+[23:19:35] energy P4 K=1 (repetition 3/3)
+    samples=606 duration=12.103 s mean_power=3.268 W min=3.250 max=3.680 energy=39.553 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K1_r3.csv
+[23:19:53] energy P4 K=4 (repetition 3/3)
+    samples=609 duration=12.163 s mean_power=3.268 W min=3.230 max=3.670 energy=39.744 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K4_r3.csv
+[23:20:10] energy P4 K=16 (repetition 3/3)
+    samples=576 duration=11.503 s mean_power=3.267 W min=3.240 max=3.640 energy=37.585 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K16_r3.csv
+[23:20:27] energy P4 K=64 (repetition 3/3)
+    samples=580 duration=11.583 s mean_power=3.266 W min=3.170 max=3.630 energy=37.835 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K64_r3.csv
+[23:20:44] energy P4 K=256 (repetition 3/3)
+    samples=651 duration=13.003 s mean_power=3.262 W min=3.170 max=3.650 energy=42.420 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_K256_r3.csv
+[23:21:02] energy P4_sleep K=1 (repetition 1/3)
+    samples=606 duration=12.103 s mean_power=3.217 W min=3.190 max=3.600 energy=38.940 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K1_r1.csv
+[23:21:19] energy P4_sleep K=4 (repetition 1/3)
+    samples=609 duration=12.163 s mean_power=3.217 W min=3.190 max=3.610 energy=39.133 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K4_r1.csv
+[23:21:37] energy P4_sleep K=16 (repetition 1/3)
+    samples=576 duration=11.503 s mean_power=3.218 W min=3.190 max=3.590 energy=37.014 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K16_r1.csv
+[23:21:54] energy P4_sleep K=64 (repetition 1/3)
+    samples=580 duration=11.583 s mean_power=3.218 W min=3.190 max=3.860 energy=37.271 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K64_r1.csv
+[23:22:10] energy P4_sleep K=256 (repetition 1/3)
+    samples=651 duration=13.003 s mean_power=3.214 W min=3.110 max=3.640 energy=41.785 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K256_r1.csv
+[23:22:29] energy P4_sleep K=1 (repetition 2/3)
+    samples=606 duration=12.103 s mean_power=3.222 W min=3.190 max=3.580 energy=38.993 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K1_r2.csv
+[23:22:46] energy P4_sleep K=4 (repetition 2/3)
+    samples=609 duration=12.163 s mean_power=3.219 W min=3.190 max=3.630 energy=39.152 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K4_r2.csv
+[23:23:04] energy P4_sleep K=16 (repetition 2/3)
+    samples=576 duration=11.503 s mean_power=3.221 W min=3.190 max=3.620 energy=37.051 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K16_r2.csv
+[23:23:20] energy P4_sleep K=64 (repetition 2/3)
+    samples=580 duration=11.583 s mean_power=3.218 W min=3.110 max=3.640 energy=37.275 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K64_r2.csv
+[23:23:37] energy P4_sleep K=256 (repetition 2/3)
+    samples=651 duration=13.003 s mean_power=3.216 W min=3.180 max=3.700 energy=41.811 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K256_r2.csv
+[23:23:55] energy P4_sleep K=1 (repetition 3/3)
+    samples=606 duration=12.103 s mean_power=3.219 W min=3.120 max=3.560 energy=38.964 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K1_r3.csv
+[23:24:13] energy P4_sleep K=4 (repetition 3/3)
+    samples=609 duration=12.163 s mean_power=3.219 W min=3.190 max=3.580 energy=39.151 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K4_r3.csv
+[23:24:30] energy P4_sleep K=16 (repetition 3/3)
+    samples=576 duration=11.503 s mean_power=3.220 W min=3.190 max=3.600 energy=37.039 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K16_r3.csv
+[23:24:47] energy P4_sleep K=64 (repetition 3/3)
+    samples=580 duration=11.583 s mean_power=3.218 W min=3.110 max=3.670 energy=37.272 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K64_r3.csv
+[23:25:04] energy P4_sleep K=256 (repetition 3/3)
+    samples=651 duration=13.003 s mean_power=3.213 W min=3.120 max=3.710 energy=41.782 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P4_sleep_K256_r3.csv
+[23:25:22] timing grid P4 campaign 1
+[23:28:31] idle power (end), 60 s
+samples=3001 duration=60.002 s mean_power=3.122 W min=3.100 max=3.500 energy=187.300 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/idle_end.csv
+final temperatures: ams:temp1=26.45, ams:temp2=25.83, ams:temp3=24.2, ams:ps_temp=25.49, ams:remote_temp=25.77, ams:pl_temp=24.2
+[23:29:31] analysis
+=== Energy at N=2^20 (mean +- SD over repetitions) ===
+  CPU-1                              K=  1  t=14.112 +- 0.032 ms  P=3.532 +- 0.003 W  E=47.54 +- 0.14 nJ/elem  E/CPU4=2.659 +- 0.010
+  CPU-1                              K=  4  t=18.321 +- 0.021 ms  P=3.501 +- 0.002 W  E=61.180 +- 0.088 nJ/elem  E/CPU4=2.645 +- 0.009
+  CPU-1                              K= 16  t=44.288 +- 0.048 ms  P=3.422 +- 0.004 W  E=144.54 +- 0.28 nJ/elem  E/CPU4=2.732 +- 0.005
+  CPU-1                              K= 64  t=148.10 +- 0.11 ms  P=3.355 +- 0.002 W  E=473.85 +- 0.13 nJ/elem  E/CPU4=2.898 +- 0.009
+  CPU-1                              K=256  t=526.383 +- 0.014 ms  P=3.340 +- 0.002 W  E=1,676.61 +- 0.94 nJ/elem  E/CPU4=2.991 +- 0.003
+  CPU-4 (bound)                      K=  1  t=4.214 +- 0.014 ms  P=4.446 +- 0.005 W  E=17.875 +- 0.037 nJ/elem  E/CPU4=1.000 +- 0.003
+  CPU-4 (bound)                      K=  4  t=5.528 +- 0.019 ms  P=4.386 +- 0.002 W  E=23.130 +- 0.069 nJ/elem  E/CPU4=1.000 +- 0.004
+  CPU-4 (bound)                      K= 16  t=13.272 +- 0.005 ms  P=4.180 +- 0.002 W  E=52.913 +- 0.018 nJ/elem  E/CPU4=1.000 +- 0.000
+  CPU-4 (bound)                      K= 64  t=43.25 +- 0.13 ms  P=3.964 +- 0.003 W  E=163.50 +- 0.52 nJ/elem  E/CPU4=1.000 +- 0.005
+  CPU-4 (bound)                      K=256  t=149.97 +- 0.13 ms  P=3.920 +- 0.002 W  E=560.59 +- 0.45 nJ/elem  E/CPU4=1.000 +- 0.001
+  Accelerator P=1                    K=  1  t=63.738 +- 0.001 ms  P=3.289 +- 0.001 W  E=199.925 +- 0.046 nJ/elem  E/CPU4=11.185 +- 0.023
+  Accelerator P=1                    K=  4  t=95.200 +- 0.001 ms  P=3.271 +- 0.001 W  E=296.99 +- 0.11 nJ/elem  E/CPU4=12.840 +- 0.039
+  Accelerator P=1                    K= 16  t=221.047 +- 0.002 ms  P=3.251 +- 0.001 W  E=685.24 +- 0.13 nJ/elem  E/CPU4=12.950 +- 0.005
+  Accelerator P=1                    K= 64  t=724.387 +- 0.004 ms  P=3.232 +- 0.001 W  E=2,233.05 +- 0.70 nJ/elem  E/CPU4=13.658 +- 0.044
+  Accelerator P=1                    K=256  t=2,737.668 +- 0.004 ms  P=3.225 +- 0.001 W  E=8,420.6 +- 1.7 nJ/elem  E/CPU4=15.021 +- 0.012
+  Accelerator P=1 (sleep polling)    K=  1  t=63.787 +- 0.002 ms  P=3.240 +- 0.001 W  E=197.130 +- 0.070 nJ/elem  E/CPU4=11.028 +- 0.023
+  Accelerator P=1 (sleep polling)    K=  4  t=95.249 +- 0.003 ms  P=3.221 +- 0.001 W  E=292.56 +- 0.13 nJ/elem  E/CPU4=12.649 +- 0.038
+  Accelerator P=1 (sleep polling)    K= 16  t=221.103 +- 0.002 ms  P=3.196 +- 0.001 W  E=673.97 +- 0.31 nJ/elem  E/CPU4=12.737 +- 0.007
+  Accelerator P=1 (sleep polling)    K= 64  t=724.436 +- 0.008 ms  P=3.179 +- 0.002 W  E=2,196.6 +- 1.4 nJ/elem  E/CPU4=13.435 +- 0.044
+  Accelerator P=1 (sleep polling)    K=256  t=2,737.718 +- 0.005 ms  P=3.174 +- 0.002 W  E=8,286.4 +- 5.4 nJ/elem  E/CPU4=14.782 +- 0.015
+  Accelerator P=4                    K=  1  t=1,083.402 +- 0.012 ms  P=3.265 +- 0.003 W  E=3,373.7 +- 2.7 nJ/elem  E/CPU4=188.74 +- 0.42
+  Accelerator P=4                    K=  4  t=1,088.465 +- 0.030 ms  P=3.266 +- 0.001 W  E=3,390.4 +- 1.4 nJ/elem  E/CPU4=146.58 +- 0.44
+  Accelerator P=4                    K= 16  t=1,128.339 +- 0.006 ms  P=3.265 +- 0.002 W  E=3,513.5 +- 2.2 nJ/elem  E/CPU4=66.402 +- 0.046
+  Accelerator P=4                    K= 64  t=1,250.315 +- 0.002 ms  P=3.262 +- 0.002 W  E=3,890.0 +- 2.2 nJ/elem  E/CPU4=23.792 +- 0.077
+  Accelerator P=4                    K=256  t=1,755.448 +- 0.007 ms  P=3.255 +- 0.002 W  E=5,450.1 +- 2.6 nJ/elem  E/CPU4=9.722 +- 0.009
+  Accelerator P=4 (sleep polling)    K=  1  t=1,083.464 +- 0.018 ms  P=3.217 +- 0.002 W  E=3,324.0 +- 1.9 nJ/elem  E/CPU4=185.96 +- 0.40
+  Accelerator P=4 (sleep polling)    K=  4  t=1,088.558 +- 0.028 ms  P=3.216 +- 0.001 W  E=3,338.7 +- 1.4 nJ/elem  E/CPU4=144.34 +- 0.44
+  Accelerator P=4 (sleep polling)    K= 16  t=1,128.387 +- 0.006 ms  P=3.217 +- 0.001 W  E=3,461.5 +- 1.5 nJ/elem  E/CPU4=65.419 +- 0.036
+  Accelerator P=4 (sleep polling)    K= 64  t=1,250.359 +- 0.019 ms  P=3.214 +- 0.001 W  E=3,832.22 +- 0.94 nJ/elem  E/CPU4=23.439 +- 0.075
+  Accelerator P=4 (sleep polling)    K=256  t=1,755.500 +- 0.025 ms  P=3.206 +- 0.001 W  E=5,367.7 +- 1.6 nJ/elem  E/CPU4=9.575 +- 0.008
+
+=== Timing grid ===
+groups: 270, total mismatching elements: 0
+CPU-4 bound, campaign-to-campaign spread of the median: max 1.05x at N=262144, K=1; median spread 1.00x (submitted version: up to 13.6x)
+P1: end-to-end vs best CPU-4 in 30 configurations -> accelerator faster in 0, 95% CIs overlapping in 0
+P4: end-to-end vs best CPU-4 in 30 configurations -> accelerator faster in 0, 95% CIs overlapping in 0
+
+Consistency with the submitted values at N=2^20 (per-element cost, deviation from the paper):
+  CPU1      K=1: 13.44 ns (+7.2%)  K=4: 17.44 ns (+5.0%)  K=16: 42.18 ns (-0.2%)  K=64: 141.10 ns (+0.5%)  K=256: 502.25 ns (+0.1%)
+  P1        K=1: 60.00 ns (+0.0%)  K=4: 90.00 ns (+0.0%)  K=16: 210.00 ns (+0.0%)  K=64: 690.01 ns (-0.0%)  K=256: 2610.02 ns (-0.0%)
+  P4        K=1: 1032.29 ns (-0.1%)  K=4: 1036.82 ns (-1.0%)  K=16: 1075.18 ns (-0.4%)  K=64: 1191.43 ns (-0.1%)  K=256: 1673.15 ns (-0.2%)
+  CPU4best  K=1: 3.41 ns (+2.1%)  K=4: 4.41 ns (-58.0%)  K=16: 10.75 ns (-50.5%)  K=64: 35.47 ns (-0.2%)  K=256: 128.15 ns (-34.0%)
+
+Model fits  T = T0 + ceil(N/P)(K + c_P)/f_PL  (all N, K):
+  P1: P=1 f=100 MHz  c_P=5.0  T0=1.55 us  max error 0.04%
+  P4: P=4 f=100 MHz  c_P=412.5  T0=-14.76 us  max error 1.27%
+  processor: alpha1_ns=12.427, beta1_ns=1.919, beta4_ns_Kge16=0.487
+  P_min vs CPU-1 at 100 MHz = 5.2
+
+=== Temperatures and power over all phases (min - max) ===
+  power_W: 3.10 - 4.55
+  ams:temp1: 23.44 - 29.83
+  ams:temp2: 23.45 - 30.42
+  ams:temp3: 23.24 - 25.86
+  ams:ps_temp: 23.38 - 30.11
+  ams:remote_temp: 23.33 - 30.46
+  ams:pl_temp: 23.30 - 25.83
+
+Tables: /home/ubuntu/kria_esperimenti/results_20261109_225321/tables
+Figure data: /home/ubuntu/kria_esperimenti/results_20261109_225321/figdata  (python3 make_figures.py /home/ubuntu/kria_esperimenti/results_20261109_225321)
+Matplotlib is building the font cache; this may take a moment.
+Figures -> /home/ubuntu/kria_esperimenti/results_20261109_225321/figures
+  fig_kernel_P1.pdf / .png
+  fig_kernel_P4.pdf / .png
+  fig_profit.pdf / .png
+  fig_offloading_map.pdf / .png
+  fig_energy.pdf / .png

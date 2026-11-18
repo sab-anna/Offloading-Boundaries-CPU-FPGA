@@ -1,0 +1,3 @@
+ENERGY tag=P1_sleep mode=acc n=1048576 k=4 reps=105 loop_start=4846.373239 loop_end=4856.374901 mean_kern_ns=94415626.2 sd_kern_ns=25245.4 mean_e2e_ns=95251670.7 sd_e2e_ns=28568.3 mismatches=0 poll=sleep
+samples=515 duration=10.283 s mean_power=3.222 W min=3.200 max=3.560 energy=33.133 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_P1_sleep_K4_r1.csv
+final temperatures: ams:temp1=27.03, ams:temp2=25.66, ams:temp3=23.91, ams:ps_temp=26.78, ams:remote_temp=25.97, ams:pl_temp=24.36

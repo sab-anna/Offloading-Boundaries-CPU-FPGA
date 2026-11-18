@@ -1,0 +1,3 @@
+ENERGY tag=CPU4 mode=cpu4 n=1048576 k=256 reps=67 loop_start=4398.397715 loop_end=4408.440637 mean_kern_ns=149891887.2 sd_kern_ns=1309465.1 mean_e2e_ns=149891887.2 sd_e2e_ns=1309465.1 mismatches=0 poll=-
+samples=539 duration=10.763 s mean_power=3.891 W min=3.130 max=4.090 energy=41.880 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/E_CPU4_K256_r3.csv
+final temperatures: ams:temp1=28.72, ams:temp2=27.01, ams:temp3=25.16, ams:ps_temp=27.57, ams:remote_temp=27.51, ams:pl_temp=25.5

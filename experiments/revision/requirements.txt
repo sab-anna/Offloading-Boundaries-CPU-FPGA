@@ -1,0 +1,3 @@
+# analyze.py, power_logger.py: Python 3 standard library only
+# make_figures.py:
+matplotlib>=3.5

@@ -1,0 +1,32 @@
+[CPU4u c1] N=1024 K=1 done
+[CPU4u c1] N=1024 K=4 done
+[CPU4u c1] N=1024 K=16 done
+[CPU4u c1] N=1024 K=64 done
+[CPU4u c1] N=1024 K=256 done
+[CPU4u c1] N=4096 K=1 done
+[CPU4u c1] N=4096 K=4 done
+[CPU4u c1] N=4096 K=16 done
+[CPU4u c1] N=4096 K=64 done
+[CPU4u c1] N=4096 K=256 done
+[CPU4u c1] N=16384 K=1 done
+[CPU4u c1] N=16384 K=4 done
+[CPU4u c1] N=16384 K=16 done
+[CPU4u c1] N=16384 K=64 done
+[CPU4u c1] N=16384 K=256 done
+[CPU4u c1] N=65536 K=1 done
+[CPU4u c1] N=65536 K=4 done
+[CPU4u c1] N=65536 K=16 done
+[CPU4u c1] N=65536 K=64 done
+[CPU4u c1] N=65536 K=256 done
+[CPU4u c1] N=262144 K=1 done
+[CPU4u c1] N=262144 K=4 done
+[CPU4u c1] N=262144 K=16 done
+[CPU4u c1] N=262144 K=64 done
+[CPU4u c1] N=262144 K=256 done
+[CPU4u c1] N=1048576 K=1 done
+[CPU4u c1] N=1048576 K=4 done
+[CPU4u c1] N=1048576 K=16 done
+[CPU4u c1] N=1048576 K=64 done
+[CPU4u c1] N=1048576 K=256 done
+samples=38 duration=7.403 s mean_power=3.888 W min=3.110 max=4.260 energy=28.781 J -> /home/ubuntu/kria_esperimenti/results_20261109_225321/power/G_CPU4u_c1.csv
+final temperatures: ams:temp1=25.29, ams:temp2=27.06, ams:temp3=25.01, ams:ps_temp=27.31, ams:remote_temp=26.25, ams:pl_temp=24.86
